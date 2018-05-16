@@ -13,8 +13,9 @@ int main()
 {
 	int A[8] = {6,5,3,1,8,7,2,4};
 	vector<int> arry(A,A+8);	
-	BubbleSort(arry);
-	std::cout<< "冒泡：";
+	//BubbleSort(arry);
+	CocktailSort(arry);
+	std::cout<< "鸡尾酒：";
 	for(vector<int>::iterator it = arry.begin(); it != arry.end(); ++it)
 		cout << *it;
 	cout << endl;

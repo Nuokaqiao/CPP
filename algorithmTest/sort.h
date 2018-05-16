@@ -41,5 +41,17 @@ void BubbleSort(vector<int> &arry)
 void CocktailSort(vector<int> &arry)
 {
 	int left = 0;
-	int right = arry.size();
+	int right = arry.size() - 1;
+	while(left < right){
+		for(int i = left; i < right; ++i){
+			if(arry[i] > arry[i + 1])
+				swap(arry[i],arry[i + 1]);
+		}
+		right--;
+		for(int i = right; i > left; --i){
+			if(arry[i] < arry[i - 1])
+				swap(arry[i],arry[i - 1]);
+		}
+		left++;
+	}
 }
