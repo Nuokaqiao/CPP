@@ -1,0 +1,42 @@
+QMAKE_CXX.INCDIRS = \
+    /usr/include/c++/5 \
+    /usr/include/x86_64-linux-gnu/c++/5 \
+    /usr/include/c++/5/backward \
+    /usr/lib/gcc/x86_64-linux-gnu/5/include \
+    /usr/local/include \
+    /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed \
+    /usr/include/x86_64-linux-gnu \
+    /usr/include
+QMAKE_CXX.LIBDIRS = \
+    /home/shi/lib/gdal/lib \
+    /home/shi/lib/mpich/lib \
+    /home/shi/lib/opencv/lib \
+    /home/shi/apps/Qt5.10.1/5.10.1/gcc_64/lib \
+    /usr/local/lib \
+    /usr/lib \
+    /lib \
+    /usr/lib/gcc/x86_64-linux-gnu/5 \
+    /usr/lib/x86_64-linux-gnu \
+    /lib/x86_64-linux-gnu \
+    /home/shi/lib/opencv/proj.4 \
+    /home/shi/lib/gdal/bin \
+    /home/shi/lib/mpich/bin \
+    /home/shi/lib/opencv/bin \
+    /home/shi/apps/Qt5.10.1/5.10.1/gcc_64/bin \
+    /usr/local/sbin \
+    /usr/local/bin \
+    /usr/sbin \
+    /usr/bin \
+    /sbin \
+    /bin \
+    /usr/games \
+    /usr/local/games
+QMAKE_CXX.QT_COMPILER_STDCXX = 199711L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 5
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 4
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
